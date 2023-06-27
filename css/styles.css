@@ -1,0 +1,62 @@
+:root {
+  --hero-background: #00000033;
+  --background-text-color: #fff;
+  --title-color: #323232;
+  --text: #999999;
+  --accent: #4985ff;
+  --subtitle-color: #000;
+  --background-color-var: #f6f6f8;
+}
+
+body {
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
+}
+.button{
+  color: var(--background-text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+background-color: var(--accent);
+border-radius: 30px;
+box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+width: 200px;
+height: 45px;
+
+}
+
+.header-nav {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--background-text-color);
+
+  font-size: 16px;
+  font-weight: 500;
+}
+.hero{
+
+}
+.hero-subtitle{
+  color: var(--background-text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+
+.hero-title{
+  color: var(--background-text-color);
+text-align: center;
+font-size: 48px;
+font-weight: 800;
+}
+
+.hero-button{
+
+}
