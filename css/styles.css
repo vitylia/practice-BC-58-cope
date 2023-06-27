@@ -1,0 +1,30 @@
+:root {
+  --hero-background: #00000033;
+  --background-text-color: #fff;
+  --title-color: #323232;
+  --text: #999999;
+  --accent: #4985ff;
+  --subtitle-color: #000;
+  --background-color-var: #f6f6f8;
+}
+
+body {
+  color: var(--text);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-nav {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--background-text-color);
+
+  font-size: 16px;
+  font-weight: 500;
+}
