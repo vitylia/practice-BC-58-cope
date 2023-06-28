@@ -10,7 +10,7 @@
 
 body {
   color: var(--text);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* cancel */
@@ -40,10 +40,9 @@ a {
 
 /* Components class */
 .button {
-display: flex;
-justify-content: center;
-align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   color: var(--background-text-color);
   font-size: 16px;
@@ -151,18 +150,61 @@ align-items: center;
 
 /* Services */
 .services {
+  padding-top: 110px;
+  padding-bottom: 105px;
 }
+
 .services-title {
+  max-width: 739px;
+  margin: 0 auto 32px;
 }
+
 .servises-info {
+  max-width: 730px;
+  margin: 0 auto 80px;
 }
+
 .servises-list {
+  display: flex;
+  gap: 27px;
 }
+
 .services-item {
+  display: flex;
 }
+
+.services-circle-out {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 110px;
+  border: 1px solid #e0e0e0;
+  width: 110px;
+  height: 110px;
+}
+
+.services-circle-inside {
+  border-radius: 90px;
+  border: 1px solid var(--accent, #4985ff);
+  width: 90px;
+  height: 90px;
+}
+
+.services-txt {
+  padding-top: 46px;
+  margin-left: 17px;
+}
+
 .services-name {
+  margin-bottom: 12px;
 }
+
 .services-info {
+}
+
+.service-btn {
+  margin: 55px auto 0;
 }
 
 /* Standarts */
