@@ -264,13 +264,17 @@ a {
 }
 
 /* Works */
-
-/* .works {
-  padding-top: 100px; */
-
-.works-tittle {
-  color: var(--background-text-color);
+.work{
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
+.works-title{
+max-width: 540px;
+color: var(--background-text-color);
+
+}
+
+
 /* Projects */
 /* Video */
 /* Footer */
