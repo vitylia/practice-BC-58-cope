@@ -112,7 +112,10 @@ a {
 
 /* Header */
 .header {
-  background-color: teal;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -138,7 +141,7 @@ a {
 
 /* Hero */
 .hero {
-  padding-top: 220px;
+  padding-top: 319px;
   padding-bottom: 335px;
   background-image: linear-gradient(
       0deg,
@@ -146,7 +149,7 @@ a {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url(../images/hero-back.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1920px;
@@ -309,8 +312,7 @@ a {
 .works {
   padding-top: 100px;
   padding-bottom: 80px;
-  background-image: linear-gradient( #4985FF 50%,#FFF 50%);
-
+  background-image: linear-gradient(#4985ff 50%, #fff 50%);
 }
 
 .works-title {
@@ -371,51 +373,49 @@ a {
 
 /* Projects */
 /* Video */
-.video{
+.video {
   background-image: url(../images/video-back.jpg);
   padding-bottom: 85px;
   padding-top: 70px;
   background-repeat: no-repeat;
 }
-.video-title{
- margin-bottom: 30px;
- color: var(--background-text-color);
+.video-title {
+  margin-bottom: 30px;
+  color: var(--background-text-color);
 }
-.video-info{
+.video-info {
   margin-bottom: 70px;
   color: var(--background-text-color);
   text-align: center;
   font-size: 16px;
- line-height: 158.47%;
+  line-height: 158.47%;
 }
-.video-box{
+.video-box {
   background-image: url(../images/video-back2.jpg);
   padding: 165px 335px;
   max-width: 970px;
   margin-left: auto;
   margin-right: auto;
 }
-.video-button{
+.video-button {
   border-radius: 200px;
-border: 1px solid #FFF;
-width: 300px;
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 21px;
-background-color: transparent;
-color: var(--background-text-color);
-font-size: 16px;
-font-weight: 500;
-line-height: 158.47%;
-
-
+  border: 1px solid #fff;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+  background-color: transparent;
+  color: var(--background-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 158.47%;
 }
 
-.video-icon{
+.video-icon {
   width: 60px;
-  height:60px;
+  height: 60px;
   fill: var(--accent);
 }
 /* Footer */
@@ -445,4 +445,30 @@ line-height: 158.47%;
   font-size: 13px;
   font-weight: 400;
   line-height: 158.47%;
+}
+
+.backdrop {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(32, 29, 29, 0.25);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 500px;
+  background-color: rgb(207, 203, 199);
 }

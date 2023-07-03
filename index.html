@@ -52,7 +52,9 @@
           <h1 class="hero-title">
             Ми створюємо легкі рішення важких задач i проблем
           </h1>
-          <a class="hero-button button" href="#">Наші проекти</a>
+          <button class="hero-button button" type="button" data-modal-open>
+            Наші проекти
+          </button>
         </div>
       </section>
       <!-- Services -->
@@ -307,11 +309,12 @@
         <h2 class="video-title section-title">Відео про нашу роботу</h2>
         <p class="video-info">Просто подивіться, як ми працюємо</p>
         <div class="video-box">
-          <button class="video-button" type="button"> 
-             <svg class="video-icon">
-              <use href="./images/icons.svg#video-button" ></use>
-             </svg>
-            Дивитись відео</button>
+          <button class="video-button" type="button">
+            <svg class="video-icon">
+              <use href="./images/icons.svg#video-button"></use>
+            </svg>
+            Дивитись відео
+          </button>
         </div>
       </section>
       <section></section>
@@ -434,5 +437,12 @@
         <p class="footer-copyright">&copy; 2023. Всі права захищені</p>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close>Close</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
